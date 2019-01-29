@@ -26,6 +26,7 @@
 	font: normal normal normal 14px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
 	letter-spacing: 0.15em;
 	font-weight: lighter;
+
 }
 #down{
 	display:flex;
@@ -97,6 +98,8 @@ font: normal normal normal 14px/1.4em raleway,sans-serif;
 	padding-left: 46px;
 	color: #107070;
 	padding-top: 30px;
+	padding-bottom:30px;
+	margin-bottom: 18px;
 }
 .dan p{
 	color: #000000;
@@ -114,12 +117,13 @@ font: normal normal normal 14px/1.4em raleway,sans-serif;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 341px;
-	height: 365px;
+	height: 360px;
 	margin-left: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items:  center;
+
 }
 #kmps {background-color: #ffffff;
 width: 80%;
@@ -187,6 +191,7 @@ font-weight: lighter;
 	padding-left: 18%;
 	padding-top: 10%;
 }
+.btmb, .btmb2{letter-spacing: 0px;}
 .btmb, .btmb2, .midb2 {padding-left: 18%;}
 .midb2, .btmb2{font-weight: lighter;}
 .mbox{display: flex;
@@ -300,3 +305,18 @@ word-wrap: break-word;
 .subm2 {
 	padding: 8px 42px;
 }
+#wrap{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+#left, #right{ display: flex; flex-direction: column; margin:auto;}
+
+
+
+
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {...} 
+@media only screen and (min-width: 992px) {...} 
+@media only screen and (min-width: 1200px) {}
